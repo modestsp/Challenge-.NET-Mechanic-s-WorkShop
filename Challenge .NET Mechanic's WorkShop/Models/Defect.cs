@@ -4,7 +4,7 @@ public class Defect
 {
     public int Id { get; set; }
     string Description { get; set; }
-    int LaborCost { get; set; }
-    DateTime EstimatedDate { get; set; }
+    decimal LaborCost { get; set; }
+    int EstimatedWorkTime { get; set; }
     List<SparePart> SpareParts { get; set; }
 }
